@@ -13,16 +13,17 @@
       background-color: #f4f4f4;
     }
     header {
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background-color: #333;
       color: #fff;
       padding: 1em;
       box-sizing: border-box;
     }
     header img {
-      /* Remove border-radius to keep the image shape natural */
-      border-radius: 0;
-      margin-top: 10px;
+      margin-right: 20px; /* Add space between image and text */
+      border-radius: 0; /* Keep the image natural */
     }
     section {
       padding: 2em;
@@ -49,8 +50,8 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to My Portfolio</h1>
     <img src="profile.jpeg" alt="Mahlatse Lelosa" width="150px">
+    <h1>Welcome to My Portfolio</h1>
   </header>
   
   <section id="about-me">
@@ -78,5 +79,6 @@
   </section>
 </body>
 </html>
+
 
 
